@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
-* _putchar - Print a string
-*
-* Return: always 0
+* write - Print a string
 */
-void _putchar()
+void write()
 {
 	char *string = "_putchar\n";
 	while (*string){
