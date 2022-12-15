@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void write(void);
+void print_alphabet(void);
+
 /**
 * write - Print a string
 */
