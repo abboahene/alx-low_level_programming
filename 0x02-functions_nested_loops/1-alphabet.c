@@ -1,3 +1,5 @@
+#include <stdio>
+
 /**
 * print_alphabet - Print alphabet
 */
