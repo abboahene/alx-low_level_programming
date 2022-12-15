@@ -1,22 +1,5 @@
 #include <stdio.h>
 
-void write(void);
-void print_alphabet(void);
-
-/**
-* write - Print a string
-*/
-void write()
-{
-	char *string = "_putchar\n";
-	
-	while (*string)
-	{
-		putchar(*string);
-		string++;
-	}
-}
-
 /**
 * print_alphabet - Print a lower alphabets
 */
