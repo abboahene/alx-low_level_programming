@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* print_numbers - print numbers
-*
+* print_line - print line
+* @n: number of hyphens (_)
 */
 void print_line(int n)
 {
