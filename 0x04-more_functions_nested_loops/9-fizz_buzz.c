@@ -17,7 +17,14 @@ int main(void)
 		}
 		else if ((j % 5) == 0)
 		{
-			printf("Buzz ");
+			if (j == 100)
+			{
+				printf("Buzz\n");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
 		}
 		else if (((j % 3) == 0) && ((j % 5) == 0))
 		{
@@ -25,14 +32,7 @@ int main(void)
 		}
 		else
 		{
-			if (j == 100)
-			{
-				printf("%d", j);
-			}
-			else
-			{
-				printf("%d ", j);
-			}
+			printf("%d ", j);
 		}
 	}
 	return (0);
