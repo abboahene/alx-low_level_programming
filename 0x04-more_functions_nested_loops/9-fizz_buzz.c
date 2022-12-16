@@ -3,8 +3,9 @@
 /**
 * main - Fizzbuzz
 *
+* Return: always 0
 */
-int main()
+int main(void)
 {
 	int j;
 
@@ -36,4 +37,6 @@ int main()
 			putchar('\n');
 		}
 	}
+
+	return (0);
 }
