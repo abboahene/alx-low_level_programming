@@ -31,5 +31,9 @@ int main()
 		{
 			putchar(' ');
 		}
+		else
+		{
+			putchar('\n');
+		}
 	}
 }
